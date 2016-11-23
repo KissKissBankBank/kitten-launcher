@@ -14,6 +14,7 @@
   ],
   "author": "KissKissBankBank & Co",
   "devDependencies": {
+    "babel-loader": "^6.2.5",
     "css-loader": "^0.23.1",
     "expose-loader": "^0.7.1",
     "extract-text-webpack-plugin": "^1.0.1",
