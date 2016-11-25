@@ -13,7 +13,7 @@
     "loaders"
   ],
   "author": "KissKissBankBank & Co",
-  "devDependencies": {
+  "dependencies": {
     "babel-loader": "^6.2.5",
     "css-loader": "^0.23.1",
     "expose-loader": "^0.7.1",
@@ -24,7 +24,7 @@
     "sass-loader": "^4.0.0",
     "style-loader": "^0.13.1",
     "svg-react-loader": "^0.3.7",
-    "webpack": "^1.12.14",
+    "webpack": "^1.13.3",
     "webpack-merge": "^0.14.1"
   }
 }
