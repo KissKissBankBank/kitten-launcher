@@ -4,6 +4,9 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [unreleased]
 
+Features:
+- Add `webpack-dev-server` module in `package.json`.
+
 ## [v0.2.0] - 2016-11-25
 
 Fixes:
