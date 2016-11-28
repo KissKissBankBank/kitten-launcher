@@ -8,3 +8,16 @@
 It should eventually have a set of scripts to compile
 [kitten](https://github.com/KissKissBankBank/kitten) with
 [Webpack](https://webpack.github.io/).
+
+## Release
+
+To release a new version:
+
+- Switch to the `master` branch and pull the last version of it.
+- Update the version in `package.json`.
+- Update the version in `CHANGELOG.md` and add a new `[unreleased]` section.
+- Run this command:
+
+```sh
+npm run deploy
+```
