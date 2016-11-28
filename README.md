@@ -47,3 +47,11 @@ To release a new version:
 ```sh
 npm run deploy
 ```
+
+As `kitten-launcher` module is on a [private registry on
+Gemfury](https://gemfury.com/help/npm-registry), you have to make sure you have
+publication rights on the Gemfury repository, then you can publish the module:
+
+```
+npm publish
+```
