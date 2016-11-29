@@ -1,0 +1,15 @@
+const shell = require('shelljs')
+const colors = require('colors/safe')
+const config = require('./../package.json')
+const version = config.version
+
+shell.exec('cd ..')
+shell.exec('git add CHANGELOG.md package.json')
+shell.exec(`git commit -m v${version}`)
+shell.exec(`git tag v${version}`)
+shell.exec('git push origin master')
+shell.exec('git push --tags')
+
+const successMessage = 'You can now publish your npm module with `npm publish`.'
+
+console.log(colors.green(successMessage))
