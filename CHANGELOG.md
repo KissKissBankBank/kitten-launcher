@@ -4,6 +4,9 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [unreleased]
 
+Fixes:
+- Update deploy script.
+
 ## [v1.0.0] - 2016-12-07
 
 Features:
