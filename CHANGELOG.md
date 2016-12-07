@@ -4,6 +4,8 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ## [unreleased]
 
+## [v1.0.0] - 2016-12-07
+
 Features:
 - Add a MIT license.
 
