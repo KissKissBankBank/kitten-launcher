@@ -11,26 +11,6 @@ It should eventually have a set of scripts to compile
 
 ## Installation
 
-As the `kitten-launcher` module is on a
-[private registry on Gemfury](https://gemfury.com/help/npm-registry),
-you have to setup your npm configuration aka your `.npmrc` to be able to
-install all npm dependencies.
-
-Set your default registry in your `.npmrc`:
-
-```sh
-npm config set registry https://npm-proxy.fury.io/bob/
-```
-
-Set your authentication token in your `.npmrc` by providing your Gemfury
-username and password:
-
-```sh
-npm login
-```
-
-Install the dependency:
-
 ```sh
 npm install --save kitten-launcher
 ```
@@ -48,9 +28,7 @@ To release a new version:
 npm run deploy
 ```
 
-As `kitten-launcher` module is on a [private registry on
-Gemfury](https://gemfury.com/help/npm-registry), you have to make sure you have
-publication rights on the Gemfury repository, then you can publish the module:
+Then you can publish the module:
 
 ```
 npm publish
