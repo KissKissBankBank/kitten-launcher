@@ -4,7 +4,7 @@
   "license": "MIT",
   "description": "Build tools for kitten-components library",
   "scripts": {
-    "deploy": "babel-node bin/deploy.js"
+    "deploy": "babel-node bin/deploy"
   },
   "repository": {
     "type": "git",
