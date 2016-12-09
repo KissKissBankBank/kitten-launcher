@@ -1,3 +1,5 @@
+#!node_modules/.bin/babel-node
+
 const shell = require('shelljs')
 const colors = require('colors/safe')
 const config = require('./../package.json')

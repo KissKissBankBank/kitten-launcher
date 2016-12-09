@@ -25,7 +25,7 @@ To release a new version:
 - Run this command:
 
 ```sh
-npm run deploy
+bin/deploy
 ```
 
 Then you can publish the module:
